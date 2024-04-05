@@ -1,5 +1,5 @@
 
-# Django Model Translator -- Foydalanish qo'llanmasi / Documentation
+# Django Model Translator —  Documentation
 
 django-model-translator **django model**lardagi bir nechta tilli **field**larni tarjima qilish uchun vosita <br>
 django-model-translator a tool for translating multilingual **fields** in **django models**
@@ -28,10 +28,10 @@ After adding to **INSTALLED_APPS** you need to add the following to your setting
 DEFAULT_LANGUAGE = 'uz'
 ALL_LANGUAGES = ['uz', 'en']
 ```
-**DEFAULT_LANGUAGE** --  asosiy til, agar mavjud bo'lmagan til berilsa shu tilga tarjima qilinadi <br>
-**DEFAULT_LANGUAGE** -- default language, if a non-existent language is given, the models will be translated into that language <br>
-**ALL_LANGUAGES** -- Mavjud bo'lgan barcha tillar ro'yxati <br>
-**ALL_LANGUAGES** -- List of all available languages
+**DEFAULT_LANGUAGE** —  asosiy til, agar mavjud bo'lmagan til berilsa modellar shu tilga tarjima qilinadi <br>
+**DEFAULT_LANGUAGE** — default language, if a non-existent language is given, the models will be translated into that language <br>
+**ALL_LANGUAGES** — Mavjud bo'lgan barcha tillar ro'yxati <br>
+**ALL_LANGUAGES** — List of all available languages
 
 #### Model yozish / Model writing
 **models.py** faylidagi modellaringizdagi tarjima qilinadigan **field**larni quyidagicha yozishingiz kerak <br>
